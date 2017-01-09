@@ -23,14 +23,15 @@ function sbstring(s)
                 {  
                          /*if ( s [ i ].compareTo( s [ j ] ) > 0 )*/
                          if ( s [ i ]!=s [ j ] )
-                          {                                            
-                                      console.log("not square");
-                                                
-                           } 
+                          	{                                            
+                            alert("Square Free");                   
+                           	} 
 						 else
 							{
-							console.log("square");
+							alert("Not Square Free");
 							}
+					break;
                 } 
+                break;
              } 
 }
